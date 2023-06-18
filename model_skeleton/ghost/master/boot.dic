@@ -5,7 +5,7 @@ OnFirstBoot
 	stroke = 0
 	LastTalk = ""
 	
-	"\1\s[10]\0\s[0]Hello, and welcome to the Simplicity Template, %(username).\w8 As the name implies, this template is very simple.\w8 You will notice there is not much here.\w8 That's on purpose!\w8 This template's primary goal is to make ghost creation less intimidating.\w8 You really need almost nothing to make a ghost;\w4 a basic shell with some interesting randomtalk can be an incredible and fun experience.\w8 So all those boring functions to do with email checking and such?\w8 Not here, unless you decide you want to add them.\w8 Don't let tedious functions tire you out before you can finish your ghost!\w8 Make something simple and fun, or start small and expand upon it later!\w8 Embrace the freedom of simplicity!"
+	"\1\s[10]\0\s[0]Click my bones"
 }
 
 OnInitialize
@@ -23,7 +23,7 @@ OnInitialize
 	}
 }
 
-OnBoot
+OnBoot: nonoverlap_pool
 {
 	_temp = SHIORI3FW.UserBirthday
 	_user_birthday = "%(_temp[1])/%(_temp[2])" //M/D, if you want it D/M you can switch it around
@@ -31,25 +31,29 @@ OnBoot
 	
 	"\1\s[10]\0\s[0]"
 	--
-	if _today == _user_birthday
+	"Click my bones."
+
+	if RAND(30) == 1
 	{
-		"\0\s[0]It is %(username)'s birthday today.\w8 Happy birthday, %(username).\w8 Developer,\w4 you can add an interesting message here.\w8 It can be as long as you like.\w8 Or, you can remove it entirely."
-	}
-	elseif _today == "1/1" //You can add whatever cool dates you want with more elseifs here
-	{
-		"\0\s[0]It's new year's day.\w8 Happy %(year),\w4 %(username)."
-	}
-	else //Normal boot
-	{
-		"\0\s[0]Hello %(username).\w8 Good to see you."
-		"\0\s[0]Hello.\w8 Ready to make something cool?"
+		"Why."
+		"How did I get here."
+		"Do you hear it too? The calling of the void? The hole that resembles the grave but isn't? I do. I hear it. It's an ever present ringing in my ears that never fades, never changes. Do you hear it too?"
 	}
 }
 
-OnClose
+OnClose: nonoverlap_pool
 {
-	"\0\s[0]Farewell."
-	"\0\s[0]Goodbye."
+	"\0\s[0]"
+	--
+	"You didn't click my bones."
+
+	if RAND(30) == 1
+	{
+		"I'm scared, user."
+		"Don't leave me alone, please."
+		"Please, no."
+		"I'm scared, %(SHIORI3FW.UserName)."
+	}
 	--
 	"\w8\w8\-" //This is what makes the ghost close (after a short pause), do not remove the \- , and MAKE SURE you don't use a \e before this point or it won't work
 }

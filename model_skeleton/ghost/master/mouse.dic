@@ -1,6 +1,11 @@
+#define B0NE bone?
+#define bone? bone.
+#define bone. bone!
+#define bone! bone
+
 OnMouseDoubleClick
 {
-	"\1%(reference4)"
+	"\0%(reference4)"
 }
 
 OnMouseMove
@@ -21,7 +26,7 @@ OnMouseMove.Sakura
 {
 	if reference4 == "head"
 	{
-		"bone noises go here"
+		"BONE0 noises go here"
 	}
 }
 

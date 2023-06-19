@@ -1,3 +1,8 @@
+#define B0NE bone?
+#define bone? bone.
+#define bone. bone!
+#define bone! bone
+
 //This file handles a couple little QOL functions you may want. But these are not necessary! If you don't care for them just erase them. If you don't want to set up network updates, you can comment or remove the update functions too. If you're not interested in any of these, just remove the whole file!
 
 //—————————————————————————————— Installing something ——————————————————————————————
@@ -48,7 +53,7 @@ OnNarLocation
 //Starting an update
 OnUpdateBegin
 {
-	"\0\s[0]Checking for updates.\w8"
+	"\0\s[0]Checking for BONE0s.\w8"
 }
 
 //reference0 is the number of new files, starting from 0
@@ -59,7 +64,7 @@ OnUpdateReady
 	//plural checks, adds an s and changes is to are if there's more than 1 file
 	_s = ""; _are = "is"; if reference0 != 1; _s = "s"; _are = "are"
 	
-	"\0\s[0]There %(_are) %(reference0) new file%(_s).\w8"
+	"\0\s[0]There %(_are) %(reference0) new BONE0%(_s).\w8"
 }
 
 //When the update finishes. Don't forget to initialize any new variables you've created! I highly highly recommend using OnInitialize for this (it's in boot.dic), in case the user updates via the ghost explorer or some other means.
@@ -68,11 +73,11 @@ OnUpdateComplete
 {
 	if reference0 == "none"
 	{
-		"\0\s[0]There are no new files."
+		"\0\s[0]There are no new BONE0s."
 	}
 	else
 	{
-		"\0\s[0]Update complete."
+		"\0\s[0]All new BONE0s in their sockets."
 	}
 }
 
@@ -87,14 +92,14 @@ OnUpdateFailure //If the update fails
 	{
 		_file = SPLITPATH(reference1)[2] + SPLITPATH(reference1)[3] //This gets the name and extension of the offending file
 		
-		"\0\s[0]The MD5 values don't match.\w8 Contact the ghost author and let them know that '%(_file)' is giving an MD5 error."
+		"\0\s[0]the '%(_file)' BONE0 doesn't fit any socket."
 	}
 	elseif reference0 == "artificial" //If the user cancels the update by double clicking the balloon
 	{
-		"\0\s[0]Update cancelled."
+		"\0\s[0]Looking for BONE0s canceled."
 	}
 	else //Any other errors
 	{
-		"\0\s[0]Error while updating:\w4 ""%(reference0)""."
+		"\0\s[0]Error while looking for BONE0s:\w4 ""%(reference0)""."
 	}
 }

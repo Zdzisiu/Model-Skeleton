@@ -79,6 +79,131 @@ surface0
 
 
 
+	//BASES
+	animation1.interval,bind
+	animation1.pattern1,overlay,1,0,0,0
+	
+	animation2.interval,bind
+	animation2.pattern1,overlay,2,0,0,0
+	
+	animation3.interval,bind
+	animation3.pattern1,overlay,3,0,0,0
+	
+	animation4.interval,bind
+	animation4.pattern1,overlay,4,0,0,0
+	
+	
+	//EYES 10
+	animation10.interval,bind
+	animation10.pattern1,overlay,10,0,0,0
+	
+	animation11.interval,bind
+	animation11.pattern1,overlay,11,0,0,0
+	
+	animation12.interval,bind
+	animation12.pattern1,overlay,12,0,0,0
+	
+	//animation13.interval,bind
+	//animation13.pattern1,overlay,13,0,0,0
+	
+	
+	//MISC LOW 20
+	
+	animation20.interval,bind
+	animation20.pattern1,overlay,20,0,0,0
+	
+	animation21.interval,bind
+	animation21.pattern1,overlay,21,0,0,0
+	
+	animation22.interval,bind
+	animation22.pattern1,overlay,22,0,0,0
+	
+	animation23.interval,bind
+	animation23.pattern1,overlay,23,0,0,0
+	
+	
+	//BOWTIES 30
+	animation30.interval,bind
+	animation30.pattern1,overlay,30,0,0,0
+	
+	animation31.interval,bind
+	animation31.pattern1,overlay,31,0,0,0
+	
+	animation32.interval,bind
+	animation32.pattern1,overlay,32,0,0,0
+	
+	animation33.interval,bind
+	animation33.pattern1,overlay,33,0,0,0
+	
+	
+	//TIES 40
+	animation40.interval,bind
+	animation40.pattern1,overlay,40,0,0,0
+	
+	animation41.interval,bind
+	animation41.pattern1,overlay,41,0,0,0
+	
+	animation42.interval,bind
+	animation42.pattern1,overlay,42,0,0,0
+	
+	//animation43.interval,bind
+	//animation43.pattern1,overlay,43,0,0,0
+	
+	
+	//GLASSES 50
+	animation50.interval,bind
+	animation50.pattern1,overlay,50,0,0,0
+	
+	animation51.interval,bind
+	animation51.pattern1,overlay,51,0,0,0
+	
+	animation52.interval,bind
+	animation52.pattern1,overlay,52,0,0,0
+	
+	
+	//SCARF 60
+	animation60.interval,bind
+	animation60.pattern1,overlay,60,0,0,0
+	
+	
+	//MUSTACHES 70
+	animation70.interval,bind
+	animation70.pattern1,overlay,70,0,0,0
+	
+	animation71.interval,bind
+	animation71.pattern1,overlay,71,0,0,0
+	
+	
+	//HATS 80 
+	animation80.interval,bind
+	animation80.pattern1,overlay,80,0,5,-27
+	
+	animation81.interval,bind
+	animation81.pattern1,overlay,81,0,0,0
+	
+	animation82.interval,bind
+	animation82.pattern1,overlay,82,0,0,0
+	
+	animation83.interval,bind
+	animation83.pattern1,overlay,83,0,0,0
+	
+	animation84.interval,bind
+	animation84.pattern1,overlay,84,0,0,0
+	
+	
+	//MISC HIGH 90
+	
+	animation90.interval,bind
+	animation90.pattern1,overlay,90,0,0,0
+	
+	animation91.interval,bind
+	animation91.pattern1,overlay,91,0,0,0
+	
+	
+	
+	
+
+
 
 
 

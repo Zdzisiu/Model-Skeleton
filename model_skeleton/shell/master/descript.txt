@@ -2,8 +2,116 @@ charset,UTF-8
 type,shell
 
 name,Default Shell
-craftman,
-craftmanurl,
+craftman,Ecclysium
+craftmanurl,https://ecclysium.github.io
 
 seriko.alignmenttodesktop,free
 seriko.use_self_alpha,1
+
+sakura.bindgroup4.name,Texture,Clean
+sakura.bindgroup1.name,Texture,Light Galaxy
+sakura.bindgroup2.name,Texture,Galaxy
+sakura.bindgroup3.name,Texture,Galactic Sinew
+
+sakura.bindgroup10.name,Eyes,Blue
+sakura.bindgroup11.name,Eyes,Pinpricks
+sakura.bindgroup12.name,Eyes,Flowers
+
+sakura.bindgroup20.name,Body,Vines
+sakura.bindgroup21.name,Body Bottom,Censor
+sakura.bindgroup22.name,Body Top,Censor
+sakura.bindgroup23.name,Body,Goo
+
+sakura.bindgroup30.name,Bowties,Green
+sakura.bindgroup31.name,Bowties,Red
+sakura.bindgroup32.name,Bowties,Black
+sakura.bindgroup33.name,Bowties,SSP
+
+sakura.bindgroup40.name,Ties,Yellow
+sakura.bindgroup41.name,Ties,Sunset
+sakura.bindgroup42.name,Ties,Black
+
+sakura.bindgroup50.name,Glasses,Sunglasses
+sakura.bindgroup51.name,Glasses,Safety
+sakura.bindgroup52.name,Glasses,Monocle
+
+sakura.bindgroup60.name,Scarf,Trans
+
+sakura.bindgroup70.name,Stache,Straight
+sakura.bindgroup71.name,Stache,Curly
+
+sakura.bindgroup80.name,Hats,Tophat
+sakura.bindgroup81.name,Hats,Aviator
+sakura.bindgroup82.name,Hats,Headphones
+sakura.bindgroup83.name,Hats,Pan Crown
+sakura.bindgroup84.name,Hats,Bi Crown
+
+sakura.bindgroup90.name,Misc,Sans Undertale
+sakura.bindgroup91.name,Misc,Luna Moth
+
+
+sakura.menuitem0,4
+sakura.menuitem1,1
+sakura.menuitem2,2
+sakura.menuitem3,3
+
+sakura.menuitem9,-
+
+sakura.menuitem10,10
+sakura.menuitem11,11
+sakura.menuitem12,12
+
+sakura.menuitem19,-
+
+sakura.menuitem20,20
+sakura.menuitem21,23
+sakura.menuitem22,21
+sakura.menuitem23,22
+
+sakura.menuitem29,-
+
+sakura.menuitem30,30
+sakura.menuitem31,31
+sakura.menuitem32,32
+sakura.menuitem33,33
+
+
+sakura.menuitem39,-
+
+
+sakura.menuitem40,40
+sakura.menuitem41,41
+sakura.menuitem42,42
+
+sakura.menuitem49,-
+
+sakura.menuitem50,50
+sakura.menuitem51,51
+sakura.menuitem52,52
+
+sakura.menuitem59,-
+
+
+sakura.menuitem60,60
+
+sakura.menuitem69,-
+
+sakura.menuitem70,70
+sakura.menuitem71,71
+
+sakura.menuitem79,-
+
+sakura.menuitem80,80
+sakura.menuitem81,81
+sakura.menuitem82,82
+sakura.menuitem83,83
+sakura.menuitem84,84
+
+sakura.menuitem89,-
+
+sakura.menuitem90,90
+sakura.menuitem91,91
+
+
+
+

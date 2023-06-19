@@ -5,7 +5,7 @@
 
 OnMouseDoubleClick
 {
-	"\0%(reference4)"
+	//"\0%(reference4)"
 }
 
 OnMouseMove

@@ -1,0 +1,30 @@
+descript
+{
+	version,1
+}
+
+sakura.tooltips
+{
+	Skull,Skull
+	Sternum,Sternum
+	Humerus,Humerus
+	Radius,Radius
+	Ulna,Ulna
+	LumbarSpine,Lumbar Spine
+	Carpals,Carpals
+	Femur,Femur
+	Patella,Patella
+	CervicalSpine,Cervical Spine
+	Tibia,Tibia
+	Fibula,Fibula
+	Tarsals,Tarsals
+	Ribcage,Ribcage
+	Scapula,Scapula
+	Clavicle,Clavicle
+	Metatarsals,Metatarsals
+	Metacarpals,Metacarpals
+	Phalanges,Phalanges
+	Sacrum,Sacrum
+	Coccyx,Coccyx
+	Pelvis,Pelvis
+}

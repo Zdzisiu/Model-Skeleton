@@ -2,10 +2,9 @@ Charset,UTF-8
 __system_settings_version__,2
 shiori.debugnotify,0
 Char.VirtualDesktop,e551ccbb-aea2-4470-aa34-4d3b4128f251
-Char0.center,1478
+Char0.center,1470
 shell,shell\master\
 FirstBoot,booted
-Char1.center,1321
-shell.ischanged.2,0
-DeveloperPalette.visible,1
+Char1.center,1199
+shell.ischanged.2,1
 __system_written_flag_do_not_remove__,written

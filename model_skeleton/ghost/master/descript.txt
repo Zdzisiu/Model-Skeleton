@@ -1,12 +1,12 @@
 charset,UTF-8
 
-name,Model Seleton
+name,Model Skeleton
 type,ghost
 
 shiori,yaya.dll
 
-craftman,
-craftmanurl,
+craftman,Zdzisiu
+craftmanurl,zdzisiu.github.io/ukagaka/
 
 sakura.name,Skeleton
 kero.name,

@@ -6,7 +6,7 @@
 OnMouseDoubleClick
 {
 	//"\0%(reference4)"
-	"\![sound,play,sound/bones%(RAND(5)+1)]"
+	"\![sound,play,sound/bones%(RAND(5)+1).wav]"
 }
 
 OnMouseMove
